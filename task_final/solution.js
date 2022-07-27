@@ -28,7 +28,7 @@
 function sendRequest(name, phone, address, goods, sum) {
     let data = {client: "", order: {}, goods: []};
 
-    data.client = name + phone;
+    data.client = name + " " + phone;
     data.order.address = address;
     data.order.sum = sum;
 
